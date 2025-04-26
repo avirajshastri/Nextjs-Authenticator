@@ -31,6 +31,6 @@ const userSchema = new mongoose.Schema({
 })
 
 
-const User = mongoose.models.users || mongoose.model("User",userSchema) //mongoose.models ek object h jo sare models store krta
+const User = mongoose.models["User"] || mongoose.model("User",userSchema) //mongoose.models ek object h jo sare models store krta
 
 export default User;

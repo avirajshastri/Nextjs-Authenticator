@@ -72,7 +72,8 @@ export default function LoginPage (){
             <button 
             onClick={onLogin}
             className="mt-4 ml-2 border border-white rounded-xl p-2 hover:bg-gray-100 hover:text-black ">{buttonDisabled ? "No login": "Login"}</button>
-            <Link href="/signup" className="mt-4 ml-2 hover:underline">Go to Sign up page</Link>
+            <Link href="/signup" className="mt-4 ml-4 hover:underline">Go to Sign up page</Link>
+            <Link href="/resetPassword" className="mt-4 ml-4 hover:underline">Forgot Password?</Link>
         </div>
     )
 }
